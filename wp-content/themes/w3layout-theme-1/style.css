@@ -1,0 +1,149 @@
+/*
+
+Theme Name: w3layout-theme
+
+Author: Keven Castilho
+
+Author URI: https://linktr.ee/keven.castilho
+
+Description: A development theme, from static HTML to WordPress
+
+Version: 1.0
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+@import url("css/clndr.css");
+@import url("css/slider.css");
+@import url("css/style.css");
+
+/* --------------------------------------------
+ *   Footer
+ *---------------------------------------------- */
+ .footer {
+    background: #3a3a3a url("../img/img-testimonial-bg.png") repeat-x center bottom !important;
+    }
+
+.footer-widget-section{
+    padding: 80px 0 !important;
+}
+
+.footer .footer-logo {
+    margin-bottom: 30px !important;
+    }
+
+.footer .footer-text {
+    font-size: 18px !important;
+    color: #fff !important;
+    }
+
+.footer .footer-text ul{
+    border-top: 1px solid rgba(255,255,255,.05) !important;
+    padding-top: 30px !important;
+    margin-top: 20px !important;
+    vertical-align: top !important;
+    display: table !important;
+    width: 100% !important;
+}
+
+.footer .footer-text ul i{
+    opacity: .5 !important;
+
+}
+
+.footer .footer-text li{
+    display: table-cell !important;
+}
+
+.footer .footer-text ul .phone{
+    font-size: 24px !important;
+}
+
+.footer .footer-text ul i{
+    font-size: 30px !important;
+    margin-right: 10px !important;
+    position: relative !important;
+    top:1px !important;
+}
+
+.footer .footer-text .phone small{
+    display: block !important;
+    font-size: 12px !important;
+    padding-left: 40px !important;
+    opacity: .5 !important;
+}
+
+.footer .footer-text  small i{
+    font-size: 12px !important;
+    margin-right: 5px !important;
+}
+
+.footer .footer-text .address{
+    padding-left: 30px !important;
+    font-size: 24px !important;
+}
+
+
+/* Copyright */
+
+.footer .copyright-section {
+    font-size: 12px !important;
+    background-color : #2d2d2d !important;
+    color            : #6b6b6b !important;
+    padding          : 20px 0 !important;
+    }
+
+.footer .copyright-section .copytext {
+    text-transform : uppercase !important;
+    color          : #6b6b6b !important;
+    font-weight    : 600 !important;
+    }
+
+.footer .copyright-section li a {
+    display   : block !important;
+    font-size : 13px !important;
+    color     : #6b6b6b !important;
+    }
+
+.footer .copyright-section li a:hover,
+.footer .copyright-section li.active a {
+    color : #ffffff !important;
+    }
+
+/* media queries */
+
+@media (min-width : 768px) {
+    .footer .copyright-section .list-inline > li {
+        padding-right : 10px !important;
+        padding-left  : 10px !important;
+        }
+    }
+
+
+@media (max-width : 768px) {
+    .footer .footer-text ul i,
+     .footer .footer-text ul .phone,
+     .footer .footer-text ul .address{
+        font-size: 14px !important;
+        padding: 0 !important;
+    }
+
+    .footer .footer-text ul .phone small{
+        padding-left: 20px !important;
+    }
+
+
+    .footer .footer-text li{
+        display: block !important;
+        margin-bottom: 10px !important;
+    }
+
+
+    /*footer menu*/
+    .footer .copyright-section .pull-right{
+        float: none !important;
+    }
+}
